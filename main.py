@@ -5,7 +5,7 @@ from decouple import config
 BOT_API_TOKEN = config('BOT_API_TOKEN')
 
 # قائمة بالكلمات الممنوعة
-grertings = ["كس", "عير", "ديس","","","","","","","","","","","",""]
+grertings = ["كس", "عير", "ديس","r","","t","","","","","","","","",""]
 
 # إنشاء البوت
 bot = telebot.TeleBot(BOT_API_TOKEN)
