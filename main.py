@@ -1,8 +1,7 @@
 import telebot
-from decouple import config
 
 # الحصول على التوكن من ملف البيئة
-BOT_API_TOKEN = config('BOT_API_TOKEN')
+BOT_API_TOKEN = '7372582688:AAHXY7Kp0XcntC8rigX5jKvEyIekuKn-_ys'
 
 # قائمة بالكلمات الممنوعة
 grertings = ["كس", "عير", "ديس","r","","t","","","","","","","","",""]
